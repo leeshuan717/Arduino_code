@@ -15,7 +15,7 @@ DFRobot_RGBMatrix matrix(A, B, C, D, E, CLK, LAT, OE, false, WIDTH, _HIGH);
 
 void setup() {
   matrix.begin();
-  matrix.fillScreen(matrix.Color333(0, 0, 7));//red , green , blue
+  matrix.fillScreen(matrix.Color333(7, 7, 7));//red , green , blue
 }
 
 
